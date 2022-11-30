@@ -62,9 +62,7 @@
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
-  "eslintConfig": {
-    "extends": "@ionic/eslint-config/recommended"
-  },
+  "eslintConfig": { },
   "capacitor": {
     "android": {
       "src": "android"
