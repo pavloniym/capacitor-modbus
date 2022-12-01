@@ -84,8 +84,15 @@ public class ModbusClientPlugin extends Plugin {
 
         int[] result = implementation.ReadHoldingRegisters(start, count);
 
+
+        JSArray jsArray = new JSArray();
+        for (int i = 0; i < result.length; i++)
+        {
+            jsArray.put(result[i]);
+        }
+
         JSObject jsResponse = new JSObject();
-        jsResponse.put("result", result);
+        jsResponse.put("result", jsArray);
         call.resolve(jsResponse);
     }
 
