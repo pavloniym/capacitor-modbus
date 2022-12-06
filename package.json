@@ -1,6 +1,6 @@
 {
   "name": "capacitor-modbus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modbus client for capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

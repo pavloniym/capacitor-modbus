@@ -45,14 +45,13 @@ public class ModbusClientPlugin extends Plugin {
         try
         {
             implementation.Connect();
+            call.resolve();
         }
         catch (IOException e)
         {
             call.reject("Unable to connect");
             Log.e("modbus", e.getMessage());
         }
-
-        call.resolve();
     }
 
     @PluginMethod
@@ -61,14 +60,13 @@ public class ModbusClientPlugin extends Plugin {
         try
         {
             implementation.Disconnect();
+            call.resolve();
         }
         catch (IOException e)
         {
             call.reject("Unable to disconnect");
             Log.e("modbus", e.getMessage());
         }
-
-        call.resolve();
     }
 
     @PluginMethod
@@ -80,14 +78,13 @@ public class ModbusClientPlugin extends Plugin {
         try
         {
             implementation.Connect(ip, port);
+            call.resolve();
         }
         catch (IOException e)
         {
             call.reject("Unable to connect");
             Log.e("modbus", e.getMessage());
         }
-
-        call.resolve();
     }
 
     @PluginMethod
