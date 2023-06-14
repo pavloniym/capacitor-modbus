@@ -1,4 +1,4 @@
-# capacitor-modbus
+# Capacitor Modbus
 
 Modbus client for Android with Capacitor 4.x
 
