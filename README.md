@@ -2,10 +2,6 @@
 
 Modbus client for Android with Capacitor 4.x
 
-## Sources
-- https://github.com/dhakerShiv/cordova-plugin-modbus-tcp
-- https://capacitorjs.com/docs/plugins/workflow
-
 ## Install
 
 ```bash
@@ -129,5 +125,9 @@ convertRegistersToFloat(options: { registers: number[]; order: 0 | 1; }) => Prom
 --------------------
 
 </docgen-api>
+  
+## Sources
+- https://github.com/dhakerShiv/cordova-plugin-modbus-tcp
+- https://capacitorjs.com/docs/plugins/workflow
 
 
