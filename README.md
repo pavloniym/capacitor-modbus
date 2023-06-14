@@ -1,10 +1,10 @@
 # capacitor-modbus
 
-Modbus client for capacitor
+Modbus client for Android with Capacitor 4.x
 
 ## Sources
-https://github.com/dhakerShiv/cordova-plugin-modbus-tcp
-https://capacitorjs.com/docs/plugins/workflow
+- https://github.com/dhakerShiv/cordova-plugin-modbus-tcp
+- https://capacitorjs.com/docs/plugins/workflow
 
 ## Install
 
