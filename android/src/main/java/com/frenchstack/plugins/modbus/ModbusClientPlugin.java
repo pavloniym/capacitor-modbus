@@ -1,4 +1,4 @@
-package com.frenchstack.plugins.modbus;
+package com.pavloniym.capacitor.plugins.modbus;
 
 import com.getcapacitor.JSArray;
 import com.getcapacitor.JSObject;
